@@ -187,9 +187,9 @@ export default function Page() {
                   I like learning new things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I have attended {DATA.hackathons.length}+ workshops and
-                  webinars online to keep myself on pace with the new technology
-                  trends and approaches. It was eye-opening to see the endless
+                  I have attended {DATA.hackathons.length} workshops online to
+                  keep myself on pace with the new technology trends and
+                  approaches. It was eye-opening to see the endless
                   possibilities brought to life by a group of motivated and
                   passionate team who brought new technologies around the world
                   like Google, AWS, Microsoft, etc.
