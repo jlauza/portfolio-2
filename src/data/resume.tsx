@@ -2,67 +2,69 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
+  name: "Jayson Lauza",
+  initials: "JL",
+  url: "https://lauzatech.dev",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+  description: "Software Developer, loves coding and building things.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "[I am actively coding and building things](/#education). One project that I am working on is a Saas platform for dance studios to help manage, enrol, collect payments, and more. In the past, [I pursued Software Development. A course that focuses on building softwares alone](/#education). With a [focus on clean, scalable, and high-performance solutions](/#education), I ensure that every project meets modern web standards while delivering [seamless user experiences](/#education). Whether it's a dynamic web app or a business site, [I bring efficiency and reliability to the digital space.](/#education)",
   avatarUrl: "/me.png",
   skills: [
     "React",
     "Next.js",
+    "Nest.js",
+    "Express.js",
+    "Bun.js",
     "Typescript",
     "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
     "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "SQL",
+    "Redis",
+    "MongoDB",
+    "PHP",
+    "WordPress",
+    "Laravel",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "lauzajayson@gmail.com",
+    tel: "+639513147421",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/jlauza",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/lauzatech",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/@lauzatech",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "lauzajayson@gmail.com",
         icon: Icons.email,
 
         navbar: false,
