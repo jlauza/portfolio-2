@@ -77,7 +77,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Education</h2>
+            <h2 className="text-xl font-bold">Education &amp; Trainings</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -181,18 +181,18 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
+                  Workshops &amp; Webinars
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  I like learning new things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  I have attended {DATA.hackathons.length}+ workshops and
+                  webinars online to keep myself on pace with the new technology
+                  trends and approaches. It was eye-opening to see the endless
+                  possibilities brought to life by a group of motivated and
+                  passionate team who brought new technologies around the world
+                  like Google, AWS, Microsoft, etc.
                 </p>
               </div>
             </div>
