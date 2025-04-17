@@ -165,15 +165,23 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Data Cloud Innovation: Data Analytics and Databases",
+      dates: "April 17, 2025 | 12:45 PM - 2:00 PM GMT+8",
+      location: "Online",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+        "Attended a webinar on Data Cloud Innovation, focusing on AI powered data analytics and databases. Gained insights into the latest trends and technologies in the field.",
+      href: "https://cloudonair.withgoogle.com/events/weeklies-data-cloud-innovation-apr",
+      logoUrl: "/gcloud.png",
+      image: "gcloud.png",
+      mlh: "gcloud",
+      technologies: ["Google Cloud"],
+      links: [
+        {
+          title: "Webinar",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://cloudonair.withgoogle.com/events/weeklies-data-cloud-innovation-apr",
+        },
+      ],
     },
   ],
 } as const;
