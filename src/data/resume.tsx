@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Developer, loves coding and building things. Sometimes technical support.",
   summary:
-    "[I am actively coding and building things](/#education). One project that I am working on is a Saas platform for dance studios to help manage, enrol, collect payments, and more. In the past, [I pursued Software Development. A course that focuses on building softwares alone](/#education). With a [focus on clean, scalable, and high-performance solutions](/#education), I ensure that every project meets modern web standards while delivering [seamless user experiences](/#education). Whether it's a dynamic web app or a business site, [I bring efficiency and reliability to the digital space.](/#education)",
+    "[I am actively coding and building things](/#education). In the past, [I pursued Software Development. A course that focuses on building softwares alone](/#education). With a [focus on clean, scalable, and high-performance solutions](/#education), I ensure that every project meets modern web standards while delivering [seamless user experiences](/#education). Whether it's a dynamic web app or a business site, [I bring efficiency and reliability to the digital space.](/#education)",
   avatarUrl: "/me.png",
   skills: [
     "React",
