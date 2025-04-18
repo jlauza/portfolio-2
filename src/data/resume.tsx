@@ -95,7 +95,7 @@ export const DATA = {
       title: "Web Developer & Administrator, IT Technical Consultant",
       logoUrl: "/fantasyfitnessanddance.png",
       start: "Feb 2016",
-      end: "Present",
+      end: "Nov 2024",
       description:
         "Implement website updates and maintenance, including fixes and performance improvements. Provide technical support and troubleshooting for website-related issues. Conduct regular website audits to ensure optimal performance and security. Stay up-to-date with industry trends and best practices in web development.",
     },
